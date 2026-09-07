@@ -1,0 +1,12 @@
+[project]
+name = "aws-invoice-downloader"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "boto3>=1.43.89",
+    "botocore[crt]>=1.43.89",
+    "requests>=2.34.2",
+    "ruff>=0.16.6",
+]
